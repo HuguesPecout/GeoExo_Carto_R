@@ -55,7 +55,7 @@ mf_annotation(x = USSEIN,
               bg = "grey85",
               cex = 0.65)
 
-mf_title("Population au Sénégal, par régions en 2024", fg = "white")
+mf_title("Répartition de la population au Sénégal, par régions en 2024", fg = "white")
 mf_credits("Auteurs : Hugues Pecout\nSources : GADM & ANSD (2024)", cex = 0.5)
 
 dev.off()
@@ -66,7 +66,8 @@ dev.off()
 # Creation variable area
 reg$surface <- st_area(reg)
 reg$surface
-reg$surface <- set_units(reg$surface, km^2)
+library(units)
+reg$surface <- set_units(x= reg$surface, value = km^2)
 
 reg$dens_pop24 <- reg$P2024/reg$surface
 
@@ -99,7 +100,7 @@ mf_map(x = reg,
        type = "choro",
        breaks = bornes,
        pal = "Peach",
-       leg_title = "Densité de population\n(habitants par km2)",
+       leg_title = "Habitants par km2",
        add = TRUE)
 
 mf_label(x = reg,
@@ -118,7 +119,7 @@ text(x = 261744.7,
      col="#FFFFFF99", cex = 0.65)
 
 
-mf_title("Distribution de la population au Sénégal, par régions en 2024", fg = "white")
+mf_title("Densité de population au Sénégal, par régions en 2024", fg = "white")
 mf_credits("Auteurs : Hugues Pecout\nSources : GADM & ANSD (2024)", cex = 0.5)
 
 dev.off()
