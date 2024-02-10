@@ -71,12 +71,12 @@ Pour importer le fichier de données sur la population par régions, utilisez la
 
 ## **EXERCICE**
 
-#### **En vous appuyant sur le manuel [Cartographie avec R](https://rcarto.github.io/cartographie_avec_r/), réalisez les 3 cartes thématiques suivantes :**
+#### **En vous appuyant sur le manuel [Cartographie avec R](https://rcarto.github.io/cartographie_avec_r/), réalisez les 3 cartes thématiques suivantes.**
 
 
-</br>
+##### 1. Une carte en symboles proportionnels représentant le nombre d'habitants par région en 2024. 
 
-##### 1. **Une carte en symboles proportionnels** représentant le nombre d'habitants par région en 2024. Exemple :
+Exemple :
 
 ![](img/carte_1.png)
 
@@ -85,7 +85,9 @@ Pour importer le fichier de données sur la population par régions, utilisez la
 </br>
 
 
-##### 2. **Une carte choroplèthe** représentant la densité de population par km2, par région en 2024. Exemple :
+##### 2. Une carte choroplèthe représentant la densité de population par km2, par région en 2024. 
+
+Exemple :
 
 ![](img/carte_2.png)
 
@@ -102,7 +104,9 @@ Pour convertir l'unité de mesure de la surface calculée, utilisez la fonction 
 </br>
 
 
-##### 3 **Une carte de sotck et de ratio** représentant les nombre d'habitants par région en 2024 (symbole proportionnel) et le taux d'évolution de la population (en %) entre 2015 et 2024 (en aplat de couleur dans les symboles proportionnels). Exemple :
+##### 3. Une carte de sotck et de ratio représentant les nombre d'habitants par région en 2024 (symbole proportionnel) et le taux d'évolution de la population (en %) entre 2015 et 2024 (en aplat de couleur dans les symboles proportionnels). 
+
+Exemple :
 
 ![](img/carte_3.png)
 
