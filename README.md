@@ -75,7 +75,7 @@ Pour importer le fichier de données sur la population par régions, utilisez la
 
 </br>
 
-##### **1. Une carte en symboles proportionnels** représentant le nombre d'habitants par région en 2024. 
+##### 1. Une carte en symboles proportionnels représentant le nombre d'habitants par région en 2024. 
 
 Exemple :
 
@@ -86,7 +86,7 @@ Exemple :
 </br>
 
 
-##### **2. Une carte choroplèthe** représentant la densité de population par km2, par région en 2024. 
+##### 2. Une carte choroplèthe représentant la densité de population par km2, par région en 2024. 
 
 Exemple :
 
@@ -105,7 +105,7 @@ Pour convertir l'unité de mesure de la surface calculée, utilisez la fonction 
 </br>
 
 
-##### **3. Une carte de sotck et de ratio** représentant les nombre d'habitants par région en 2024 (symbole proportionnel) et le taux d'évolution de la population (en %) entre 2015 et 2024 (en aplat de couleur dans les symboles proportionnels). 
+##### 3. Une carte de sotck et de ratio représentant les nombre d'habitants par région en 2024 (symbole proportionnel) et le taux d'évolution de la population (en %) entre 2015 et 2024 (en aplat de couleur dans les symboles proportionnels). 
 
 Exemple :
 
