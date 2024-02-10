@@ -1,20 +1,34 @@
-# Exercice - "Cartographie avec R" <img src="img/logo.png" align="right" width="120"/>
+# Cartographie avec R - Exercice appliqué <img src="img/logo.png" align="right" width="250"/>
 
-## Cartographie Sénégal
+### Master Géomatique - Université du Sine Saloum El-Hâdj Ibrahima NIASS
 
 *Hugues Pecout*
 
-### Télachargement de l’espace de travail
+</br>
 
-Téléchargez le projet *GeoExo_Carto_R** sur votre
-machine puis le dézipper.   
+#### **A. Téléchargement de l’espace de travail**
+
+Un projet Rstudio est téléchargeable à ce lien : [**https://github.com/HuguesPecout/GeoExo_Carto_R**](https://github.com/HuguesPecout/GeoExo_Carto_R)
+
+Téléchargez le dépot **GeoExo_Carto_R** sur votre
+machine.   
+
+</br>
+
 ![](img/download.png)
 
-Vous pouvez ensuite lancer le projet Rstudio en double-cliquant sur le fichier **GeoExo_Carto_R.Rproj** 
+Une fois le dossier dézipper, lancez le projet Rstudio en double-cliquant sur le fichier **GeoExo_Carto_R.Rproj**.
 
-### Présentation des données à utiliser
+</br>
 
-Les fichier de données sont mis à disposition sont contenu dans le dossier **data**.
+#### **B. Les données à disposition**
+
+</br>
+
+![](img/data.png)
+
+Les fichier de données sont mis à disposition dans le répertoire **data**.
+
 Ce repertoire contient 4 couches d’information géographiques :
 
 - **LA_ARRONDISSEMENT_S.shp**, les limites des 122 arrondissements du Sénégal. Base de données géospatiales prioritaires du Sénégal à l’échelle 1 / 1 000 000. https://www.geosenegal.gouv.sn/, 2014.
@@ -46,3 +60,6 @@ Pour réaliser ces cartes, utilisez la fonction `mf_map` du package `mapsf`
 
 
 
+![](img/carte_1.png)
+![](img/carte_2.png)
+![](img/carte_3.png)
