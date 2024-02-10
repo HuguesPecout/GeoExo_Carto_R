@@ -81,10 +81,7 @@ Exemple :
 
 ![](img/carte_1.png)
 
-
-
 </br>
-
 
 ##### 2. Une carte choroplèthe représentant la densité de population par km2, par région en 2024. 
 
@@ -95,7 +92,6 @@ Exemple :
 Pour calculer la surface du polygone, utilisez la fonction `st_area()` du package `sf` 
 
     reg$surface <- st_area(x = reg) 
-    
     
 Pour convertir l'unité de mesure de la surface calculée, utilisez la fonction  `set_units()` du package `units`
     
