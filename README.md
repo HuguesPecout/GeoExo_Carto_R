@@ -1,4 +1,4 @@
-# Cartographie avec R - Exercice appliqué <img src="img/logo.png" align="right" width="250"/>
+# Cartographie avec R - Exercice appliqué <img src="img/logo.jpeg" align="right" width="150"/>
 
 ### Master Géomatique - Université du Sine Saloum El-Hâdj Ibrahima NIASS
 
