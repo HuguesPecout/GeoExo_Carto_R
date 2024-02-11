@@ -28,13 +28,15 @@ Les fichier de données sont mis à disposition dans le répertoire **data**, qu
 ![](img/data.png)
 
 
-- **Un fichier GeoPackage** (**GeoSenegal.gpkg**) qui contient 6 couches géographiques :
+- **Un fichier GeoPackage** (**GeoSenegal.gpkg**) qui contient 7 couches géographiques :
 
     - **Pays_voisins** : Couche des frontières du Sénégal et de l'ensemble de ses pays limitrophes. Source : https://gadm.org/, 2014   
     - **Senegal** : Couche des frontières du Sénégal. Source : https://gadm.org/, 2014   
     - **Regions** : Couche des régions sénégalaises. Source : https://gadm.org/, 2014   
     - **Departements** : Couche des Departements sénégalais. Source : https://gadm.org/, 2014   
-    - **Localites** : Couche de points des localités sénagalaises. Source : Base de données géospatiales prioritaires du Sénégal. https://www.geosenegal.gouv.sn/, 2014.   
+    - **Localites** : Couche de points des localités sénagalaises. Source : Base de données géospatiales prioritaires du Sénégal. https://www.geosenegal.gouv.sn/, 2014.  
+    - **USSEIN** : Localisation de L'Université du Sine Saloum El-hâdj ibrahima NIASS. Source : Google Maps, 2014. 
+    - **Routes** : Couche du réseau routier sénégalais. Source : Base de données géospatiales prioritaires du Sénégal. https://www.geosenegal.gouv.sn/, 2014. 
 
 </br>
 
@@ -91,12 +93,18 @@ Exemple :
 
 Pour calculer la surface du polygone, utilisez la fonction `st_area()` du package `sf` 
 
-    reg$surface <- st_area(x = reg) 
+    ...$surface <- st_area(x = ...) 
     
 Pour convertir l'unité de mesure de la surface calculée, utilisez la fonction  `set_units()` du package `units`
     
     library(units)
-    reg$surface <- set_units(reg$surface, km^2)
+    ...$surface <- set_units(...$surface, km^2)
+    
+    
+Pour calculer la densité de population par km2 ?
+    
+    reg$... <- reg$... / ...$surface
+
 
 </br>
 
