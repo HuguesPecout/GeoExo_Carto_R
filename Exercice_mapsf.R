@@ -179,7 +179,7 @@ reg$evo_pop_15_24 <- (reg$P2024 - reg$P2015) / reg$P2015 *100
 hist(reg$evo_pop_15_24)
 
 # Choix des bornes de classe pour la discrétisation
-bornes <- mf_get_breaks(reg$dens_pop24, breaks = "quantile")
+bornes <- mf_get_breaks(reg$evo_pop_15_24, breaks = "quantile")
   
 
 
