@@ -9,6 +9,9 @@
 # Chargement des librairies
 ###################################################################################################
 
+# install.packages("sf")
+# install.packages("mapsf")
+
 library(sf)
 library(mapsf)
 library(units)
@@ -19,8 +22,8 @@ library(units)
 # IMPORT ET JOINTURE
 ###################################################################################################
 
-
 # Lister les couches géographiques d'un fichier GeoPackage
+st_layers("data/GeoSenegal.gpkg")
 
 # Import des données géographiques
 pays <- st_read(dsn = "data/GeoSenegal.gpkg", layer = "Pays_voisins")
